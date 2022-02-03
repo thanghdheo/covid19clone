@@ -1,0 +1,23 @@
+.highlight{
+    &_card {
+        border-left: 5px solid #000;
+
+        &_confirmed{
+            border-left: 5px solid #c9302c
+        }
+
+        &_recovered {
+            border-left: 5px solid #28a745
+        }
+    }
+
+    &_title{
+        font-size: 18;
+        margin-bottom: 5
+    }
+
+    &_count{
+        font-weight:'bold'; 
+        font-size: 18
+    }
+}
